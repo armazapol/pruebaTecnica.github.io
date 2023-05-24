@@ -12,7 +12,7 @@ const HomeWork = () => {
     if (id) {
       const transformedString = id.toString().replace(".", "_");
       setStateCards((prevState) => ({ ...prevState, [`state_${transformedString}`]: false }));
-      navigate("/");
+      navigate("/");   
     }
   };
 
